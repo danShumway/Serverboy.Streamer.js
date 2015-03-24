@@ -1,0 +1,22 @@
+{
+  "name": "Serverboy-streamer",
+  "version": "0.0.1",
+  "description": "A streaming add-on for the Serverboy, allowing you to send game data from your server to a client's canvas.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "gameboy",
+    "emulator",
+    "scripting",
+    "socketio",
+    "streaming"
+  ],
+  "author": "Daniel Shumway <shumway.danny@gmail.com> (http://www.latinforimagination.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "~1.2.0"
+  }
+}
